@@ -1,0 +1,8 @@
+package com.epicode.gestioneprenotazioni.utente;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+@Repository
+public interface UtenteRepository extends CrudRepository<Utente, Long>{
+//	public void prenotazione();
+}
